@@ -19,20 +19,19 @@
 </p>
 <h1 align="center">SnekyBot</h1>
 <p align="center">
-<<<<<<< HEAD
   <a href="https://github.com/PerfectDreams/SnekyBot/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-AGPL%20v3-lightgray.svg"></a>
 </p>
 <p align="center">
 <a href="https://github.com/PerfectDreams/SnekyBot/watchers"><img src="https://img.shields.io/github/watchers/PerfectDreams/SnekyBot.svg?style=social&label=Watch"></a>
 <a href="https://github.com/PerfectDreams/SnekyBot/stargazers"><img src="https://img.shields.io/github/stars/PerfectDreams/SnekyBot.svg?style=social&label=Stars"></a>
 =======
-<a href="https://jenkins.perfectdreams.net/job/SnekyBot/"><img src="https://jenkins.perfectdreams.net/job/{projectName}/badge/icon"></a>
+<a href="https://jenkins.perfectdreams.net/job/SnekyBot/"><img src="https://jenkins.perfectdreams.net/job/SnekyBot/badge/icon"></a>
   <a href="https://github.com/PerfectDreams/SnekyBot/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-AGPL%20v3-lightgray.svg"></a>
 </p>
 <p align="center">
-<a href="https://github.com/PerfectDreams/SnekyBot/watchers"><img src="https://img.shields.io/github/watchers/PerfectDreams/{projectName}.svg?style=social&label=Watch"></a>
-<a href="https://github.com/PerfectDreams/SnekyBot/stargazers"><img src="https://img.shields.io/github/stars/PerfectDreams/{projectName}.svg?style=social&label=Stars"></a>
->>>>>>> 301496dd67f468449e0f4ebb217ace40d8a81bc5
+<a href="https://github.com/PerfectDreams/SnekyBot/watchers"><img src="https://img.shields.io/github/watchers/PerfectDreams/SnekyBot.svg?style=social&label=Watch"></a>
+<a href="https://github.com/PerfectDreams/SnekyBot/stargazers"><img src="https://img.shields.io/github/stars/PerfectDreams/SnekyBot.svg?style=social&label=Stars"></a>
+
 </p>
 <p align="center">...</p>
 
@@ -47,25 +46,17 @@ Você também pode doar para a [Loritta](https://loritta.website/support), a mas
 
 ### 🙌 Como Usar?
 
-<<<<<<< HEAD
-#### 👨‍💻 Como Executar?
-
-Você também pode usar este projeto e usar em outros lugares, mas lembrando...
-* Nós deixamos o código-fonte de nossos projetos para que outras pessoas possam se inspirar e aprender com nossos projetos, o objetivo é que pessoas que são fãs do PerfectDreams aprendam como o servidor funciona e, caso queiram, podem ajudar o servidor com bug fixes e novas funcionalidades.
-* Eu não irei dar suporte caso você queria usar o nosso projeto no seu servidor sem dar nada em troca para o PerfectDreams, lembre-se, a licença do projeto é [AGPL v3](https://github.com/PerfectDreams/SnekyBot/blob/master/LICENSE), você é **obrigado a deixar todas as suas alterações no projeto públicas**!
-=======
 #### 👨‍💻 Como Compilar?
 
 Você também pode usar este projeto e usar em outros lugares, mas lembrando...
 * Nós deixamos o código-fonte de nossos projetos para que outras pessoas possam se inspirar e aprender com nossos projetos, o objetivo é que pessoas que são fãs do PerfectDreams aprendam como o servidor funciona e, caso queiram, podem ajudar o servidor com bug fixes e novas funcionalidades.
-* Eu não irei dar suporte caso você queria usar o nosso projeto no seu servidor sem dar nada em troca para o PerfectDreams, lembre-se, a licença do projeto é [AGPL v3](https://github.com/PerfectDreams/{projectName}/blob/master/LICENSE), você é **obrigado a deixar todas as suas alterações no projeto públicas**!
->>>>>>> 301496dd67f468449e0f4ebb217ace40d8a81bc5
+* Eu não irei dar suporte caso você queria usar o nosso projeto no seu servidor sem dar nada em troca para o PerfectDreams, lembre-se, a licença do projeto é [AGPL v3](https://github.com/PerfectDreams/SnekyBot/blob/master/LICENSE), você é **obrigado a deixar todas as suas alterações no projeto públicas**!
+
 * Eu não irei ficar explicando como arrumar problemas no seu projeto se você apenas quer pegar o código-fonte para outra coisa não relacionada com o PerfectDreams, **você está por sua conta e risco**.
 * Lembrando que nossos projetos precisam de setups e workflows específicos, você **não irá conseguir usar** nossos projetos apenas compilando e usando!
 * Existem várias coisas "hard coded" no projeto, ou seja, você terá que editar o código-fonte dela e recompilar, afinal, o projeto foi criado apenas para ser utilizado no PerfectDreams então você terá que fazer algumas modificações no código-fonte dela para funcionar. 😉
 * Caso você irá usar a sua versão em um lugar que não seja no PerfectDreams ou em seu servidor de desenvolvimento, você não poderá utilizar o nome "PerfectDreams", o nome do projeto ou "Loritta".
 
-<<<<<<< HEAD
 Mas se você quiser mesmo executar o projeto, siga os seguintes passos:
 1. Tenha o Python 3.6 (ou superior) na sua máquina
 2. Tenha o Git Bash instalado na sua máquina.
@@ -75,18 +66,6 @@ Mas se você quiser mesmo executar o projeto, siga os seguintes passos:
 6. Na pasta que foi criada, renomeie o arquivo `config.json.example` para `config.json`, abra ele com um editor de sua preferencia e preencha os dados.
 7. Use `python main.py`
 8. Pronto, agora é só utilizar o projeto e se divertir! 🎉
-=======
-Mas se você quiser mesmo compilar o projeto, siga os seguintes passos:
-1. Tenha o MongoDB instalado na sua máquina.
-2. Tenha o JDK 8 (ou superior) na sua máquina.
-3. Tenha o Git Bash instalado na sua máquina.
-4. Tenha o Maven instalado na sua máquina com o `PATH` configurado corretamente. (para que você possa usar `mvn install` em qualquer pasta e o `JAVA_HOME`, para que o `mvn install` funcione)
-5. Tenha o IntelliJ IDEA instalado na sua máquina.
-6. Faça ```git clone https://github.com/PerfectDreams/SnekyBot.git``` em alguma pasta no seu computador.
-7. Agora, usando o PowerShell (ou o próprio Git Bash), entre na pasta criada e utilize `mvn install`
-8. Após terminar de compilar, vá na pasta `target` e pegue a JAR do projeto.
-9. Pronto, agora é só utilizar o projeto e se divertir! 🎉
->>>>>>> 301496dd67f468449e0f4ebb217ace40d8a81bc5
 
 ### 🔀 Pull Requests
 No seu Pull Request, você deverá seguir o meu estilo de código bonitinho que eu faço, é recomendado que você coloque comentários nas partes do seu código para que seja mais fácil na hora da leitura.
@@ -99,21 +78,12 @@ Você precisa pensar "será que alguém iria utilizar isto?", se você criar um 
 
 ## 📦 Dependências
 
-<<<<<<< HEAD
 Nós utilizamos várias [dependências no código-fonte](https://github.com/PerfectDreams/SnekyBot/blob/master/requirements.txt) deste projeto, obrigado a todos os mantenedores das dependências! Sem vocês, talvez nosso projeto não iria existir (ou teria várias funcionalidades reduzidas ou talvez até inexistentes!)
 
 | Nome  | Mantenedor |
 | ------------- | ------------- |
 | [Python](https://python.org/) | Python Software Foundation |
 | [discord.py](https://github.com/Rapptz/discord.py/tree/rewrite) | Rapptz ([Discord](https://discord.gg/r3sSKJJ))|
-=======
-Nós utilizamos várias [dependências no código-fonte](https://github.com/PerfectDreams/SnekyBot/blob/master/pom.xml) deste projeto, obrigado a todos os mantenedores das dependências! Sem vocês, talvez nosso projeto não iria existir (ou teria várias funcionalidades reduzidas ou talvez até inexistentes!)
-
-| Nome  | Mantenedor |
-| ------------- | ------------- |
-| [Kotlin](https://kotlinlang.org/) | JetBrains  |
-| [JDA](https://github.com/DV8FromTheWorld/JDA) | DV8FromTheWorld ([Discord](https://discordapp.com))|
->>>>>>> 301496dd67f468449e0f4ebb217ace40d8a81bc5
 
 ## 📄 Licença
 
@@ -123,8 +93,5 @@ PerfectDreams é © MrPowerGamerBR — Todos os direitos reservados
 
 A personagem Loritta é © MrPowerGamerBR & PerfectDreams — Todos os direitos reservados
 
-<<<<<<< HEAD
 Ao utilizar o projeto você aceita os [termos de uso da Loritta](https://loritta.website/privacy) e os [termos de uso do PerfectDreams](https://perfectdreams.net/privacy).
-=======
-Ao utilizar o projeto você aceita os [termos de uso da Loritta](https://loritta.website/privacy) e os [termos de uso do PerfectDreams](https://perfectdreams.net/privacy).
->>>>>>> 301496dd67f468449e0f4ebb217ace40d8a81bc5
+
