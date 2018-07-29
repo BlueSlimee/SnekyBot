@@ -24,8 +24,6 @@
 <p align="center">
 <a href="https://github.com/PerfectDreams/SnekyBot/watchers"><img src="https://img.shields.io/github/watchers/PerfectDreams/SnekyBot.svg?style=social&label=Watch"></a>
 <a href="https://github.com/PerfectDreams/SnekyBot/stargazers"><img src="https://img.shields.io/github/stars/PerfectDreams/SnekyBot.svg?style=social&label=Stars"></a>
-=======
-<a href="https://jenkins.perfectdreams.net/job/SnekyBot/"><img src="https://jenkins.perfectdreams.net/job/SnekyBot/badge/icon"></a>
   <a href="https://github.com/PerfectDreams/SnekyBot/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-AGPL%20v3-lightgray.svg"></a>
 </p>
 <p align="center">
